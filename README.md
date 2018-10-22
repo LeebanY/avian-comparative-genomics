@@ -40,7 +40,6 @@ This pipeline contains external programs. The following lists scripts and the or
   * PAL2NAL.py: utilising another external program called PAL2NAL to convert AA into codons and to mask unreliable positions. 
   
  - **Step 8** 
-  * remove_empty_paml.py: remove paml files where the entire alignment has been masked. 
   * calculate_no_species.py: remove alignments with the less than 20 species again by creating a txt file with only alignments with more than 20 species.
   * Filter_1.py: Move alignments with more than 20 species into another directory.
   

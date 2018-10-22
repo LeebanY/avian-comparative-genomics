@@ -52,6 +52,26 @@ This pipeline contains external programs. The following lists scripts and the or
     
    
 
+# Morphometric data from Cooney et al (2017)
+
+The following data was curated from Cooney et al (2017) (https://www.nature.com/articles/nature21074) with the author's permission.
+
+
+# PAML pipeline
+
+The following pipeline contains an shell script which will prepare alignments, create trees, mark branches on each alignment tree and run CODEML. Note, CODEML must be properly compiled prior and Data folder, including getTree.R script, must all be in the same directory before running the shell script.
+
+Scripts in .sh file include:
+- clean_alignments.py
+- create_trees.py 
+- mark_top1_branch.py
+- mark_top2_branch.py
+- mark_top3_branch.py
+- mark_binned_branch.py
+- prepare_codeml.py
+- runCODEML.py
+
+
 
 
 
